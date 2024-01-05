@@ -20,13 +20,17 @@
     <meta property="og:type" content="website">
 
 
-    <meta name="twitter:url" content="https://github.com/borkdude/quickblog/first-post.html">
-    <meta property="og:url" content="https://github.com/borkdude/quickblog/first-post.html">
+    <meta name="twitter:url" content="https://blog.hughpowell.net/first-post.html">
+    <meta property="og:url" content="https://blog.hughpowell.net/first-post.html">
 
 
     <meta name="twitter:card" content="summary">
 
 
+    <meta name="twitter:creator" content="HughAPowell">
+
+
+    <meta name="twitter:site" content="HughAPowell">
 
   </head>
   <body>
@@ -41,6 +45,12 @@
             Feed
           </a>
 	  
+	  <a class="page-link" href="https://twitter.com/HughAPowell">
+            Twitter
+          </a>
+	  
+	  
+	  <a class="page-link" href="https://github.com/hughpowell">About</a>
 	  
         </div>
         <div>
@@ -59,7 +69,7 @@
   My first blog post
   
 </h1>
-<p>So this is my first post. Not the first first post I've written, but maybe this time it'll stick (hopefully). I'm using <a href='https://github.com/borkdude/quickblog/'>quickblog</a> from the incomparable <a href='https://github.com/borkdude'>borkdude</a>. Once I had followed the instructions in the README to get a skeleton first post up, I headed over to the <a href='https://www.eknert.com/blog/quickblog'>Anders Means Different</a> blog for instructions on how to get my blog published on GitHub pages using GitHub Actions.</p><p>Having copied the <a href='https://github.com/anderseknert/blog/blob/main/.github/workflows/push.yaml'>yaml workflows</a> file to my blog's <code>.github/workflows/</code> directory, the initial deployment failed. This is because I had failed to set the `Build and Deployment<code>: </code>Source` as "GitHub pages", rather than "Deploy from a branch", in my blog's repo.</p><p><img src="images/24-01-05-GitHub-Pages-Settings.png"></p><p>Once I successfully re-ran the <code>deploy</code> action I could reach my shiny new blog at <a href='https://hughpowell.github.io/blog'>https://hughpowell.github.io/blog</a>. GitHub automatically serves the site at <your-username>.github.io/<repo-name>.</p><p>Having got everything up and running on GitHub pages I now wanted to see if I could have it served from a custom domain. Thankfully that's pretty straight forward, you just need to create a CNAME record in your DNS host. In may case this was pointing from <code>blog.hughpowell.net</code> to <code>hughpowell.github.io/blog</code>. The last thing was to tell GitHub that I was using a custom domain and wait for it to pick it up and generate an HTTPS certificate for my custom domain.</p><p><img src="images/24-01-05-GitHub-Pages-Settings-DNS.png"></p><p>That's all for now. In my next post I plan to start working through <a href='https://blog.ploeh.dk/about/'>Mark Seemann's</a> book <a href='https://www.oreilly.com/library/view/code-that-fits/9780137464302/'>Code that fits in your head</a> and working through the examples in Clojure.</p>
+<p>So this is my first post. Not the first first post I've written, but maybe this time it'll stick (hopefully). I'm using <a href='https://github.com/borkdude/quickblog/'>quickblog</a> from the incomparable <a href='https://github.com/borkdude'>borkdude</a>. Once I had followed the instructions in the README to get a skeleton first post up, I headed over to the <a href='https://www.eknert.com/blog/quickblog'>Anders Means Different</a> blog for instructions on how to get my blog published on GitHub pages using GitHub Actions.</p><p>Having copied the <a href='https://github.com/anderseknert/blog/blob/main/.github/workflows/push.yaml'>yaml workflows</a> file to my blog's <code>.github/workflows/</code> directory, the initial deployment failed. This is because I had failed to set the `Build and Deployment<code>: </code>Source` as "GitHub pages", rather than "Deploy from a branch", in my blog's repo.</p><p><img src="images/24-01-05-GitHub-Pages-Settings.png"></p><p>Once I successfully re-ran the <code>deploy</code> action I could reach my shiny new blog at <a href='https://hughpowell.github.io/blog'>https://hughpowell.github.io/blog</a>. GitHub automatically serves the site at <your-username>.github.io/<repo-name>.</p><p>Having got everything up and running on GitHub pages I now wanted to see if I could have it served from a custom domain. Thankfully that's pretty straight forward, you just need to create a CNAME record in your DNS host. In may case this was pointing from <code>blog.hughpowell.net</code> to <code>hughpowell.github.io/blog</code>. The last thing was to tell GitHub that I was using a custom domain and wait for it to pick it up and generate an HTTPS certificate for my custom domain.</p><p><img src="images/24-01-05-GitHub-Pages-Settings-DNS.png"></p><p>That's all for now. In my next post I plan to start working through <a href='https://blog.ploeh.dk/about/'>Mark Seemann's</a> book <a href='https://www.oreilly.com/library/view/code-that-fits/9780137464302/'>Code that fits in your head</a> and translating the examples into Clojure.</p>
 
 <p><i>Published: 2024-01-05</i></p>
 
