@@ -2,7 +2,7 @@
         {:git/sha "d00e14b1176416b7d7b88e6608b6975888208355"}}
  :tasks
  {:requires ([quickblog.cli :as cli])
-  :init (def opts {:blog-title "REPL adventures"
-                   :blog-description "A blog about blogging quickly"})
+  :init (def opts {:blog-title "Opinionated Musings, mostly about software (probably)"
+                   :blog-description "Ramblings about software and anything else that comes to mind"})
   quickblog {:doc "Start blogging quickly! Run `bb quickblog help` for details."
              :task (cli/dispatch opts)}}}
