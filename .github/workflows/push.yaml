@@ -14,7 +14,7 @@ jobs:
       - uses: delaguardo/setup-clojure@12.1
         with:
           bb: latest
-      - run: bb quickblog render
+      - run: bb quickblog render && mv posts/images public/images
       - uses: actions/upload-pages-artifact@v2
         with:
           path: public/
