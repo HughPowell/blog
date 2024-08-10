@@ -1,6 +1,6 @@
 Title: 6 months, 1 line of code
 Date: 2024-07-27
-Tags: clojure, infrastructure
+Tags: clojure, infrastructure, restaurant
 
 # That was a ... journey
 So it's been somewhat longer than I'd hoped. After
@@ -446,4 +446,7 @@ pushing traces and logs through OpenTelemetry to Honeycomb.
 
 Next time we'll finish off the check-list, "Turn on all the error messages". See you then. Hopefully somewhat sooner
 than this time.
- 
+
+**Next:** [Guardrails](./guardrails.html)
+
+**Previous:** [Modern software engineering for a small team](./modern-software-engineering-for-a-small-team.html)

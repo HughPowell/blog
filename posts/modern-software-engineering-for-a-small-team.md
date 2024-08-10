@@ -262,3 +262,7 @@ development techniques and processes and I built a simple, first cut of a web se
 in a [GitHub repository](https://github.com/HughPowell/restaurant). In my next post I'll look at the second item on the
 checklist, "Automate the build". If you've got comments or questions feel free to reach out via Twitter/X (linked above)
 or on the Clojurians Slack channel.
+
+**Next:** [6 months, 1 line of code](./6-months-1-line-of-code.html)
+
+**Previous:** [My first blog post](./first-post.html)

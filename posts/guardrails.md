@@ -151,3 +151,5 @@ to reduce the likelihood of bugs. I also talked about the development time setti
 Next time there'll hopefully be a bit more application development and a little less yak shaving as I'll be building the
 first vertical slice of the restaurant reservation system. See you then. If you've got comments or questions feel free
 to reach out via Twitter/X (linked above) or on the Clojurians Slack channel.
+
+**Previous:** [6 months, 1 line of code](./6-months-1-line-of-code.html)

@@ -28,3 +28,5 @@ a custom domain and wait for it to pick it up and generate an HTTPS certificate 
 That's all for now. In my next post I plan to start working through [Mark Seemann's](https://blog.ploeh.dk/about/) book
 [Code that fits in your head](https://www.oreilly.com/library/view/code-that-fits/9780137464302/) and translating the
 examples into Clojure.
+
+**Next:** [Modern software engineering for a small team](./modern-software-engineering-for-a-small-team.html)
